@@ -16,7 +16,7 @@
 > - verwijder je de folder `influxdb2_data` en `grafana_data` die aangemaakt werden
 > - start je alles opnieuw (`docker compose up`)
 
-3. Ga naar Grafana: (http://localhost:3000)[http://localhost:3000] en login met `admin`/`admin`. Grafana vraagt om het wachtwoord te wijzigen; dat kan je overslaan met 'Skip'.
+3. Ga naar Grafana: [http://localhost:3000](http://localhost:3000) en login met `admin`/`admin`. Grafana vraagt om het wachtwoord te wijzigen; dat kan je overslaan met 'Skip'.
 
 
 4. Voeg InfluxDB als databron toe: ga naar 'Connections' > 'Add new connection'. Kies 'InfluxDB' als type. Klik op 'Add new data source'. Gebruik volgende configuratie:
